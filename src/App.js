@@ -1,10 +1,16 @@
 import React from 'react';
 import './App.css';
+import Students from './students.js';
 
 function App() {
   return (
     <div> 
-      <h1>First changing after deploying on Github action</h1>
+      <h1>Positions in AI Course</h1>
+        <Students student_name = "Shaukat Ali" student_name1 = "Muhammad Irshad"/>
+      <hr/>
+      <h1>Position in IOT Course</h1>
+        <Students student_name = "Muhammad Ahmed" student_name1 = "Mudassar Hanif"/>
+        
     </div>
   );
 }
